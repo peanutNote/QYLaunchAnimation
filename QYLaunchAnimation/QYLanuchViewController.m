@@ -1,5 +1,5 @@
 //
-//  StartViewController.m
+//  QYLanuchViewController.m
 //  BlueRhino
 //
 //  Created by 千叶 on 15/4/1.
