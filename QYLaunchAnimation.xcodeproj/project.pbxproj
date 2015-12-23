@@ -9,23 +9,32 @@
 /* Begin PBXBuildFile section */
 		1EFDE6691C2A972F00AA8C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE6681C2A972F00AA8C90 /* main.m */; };
 		1EFDE66C1C2A972F00AA8C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE66B1C2A972F00AA8C90 /* AppDelegate.m */; };
-		1EFDE66F1C2A972F00AA8C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE66E1C2A972F00AA8C90 /* ViewController.m */; };
 		1EFDE6721C2A972F00AA8C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFDE6701C2A972F00AA8C90 /* Main.storyboard */; };
 		1EFDE6741C2A972F00AA8C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFDE6731C2A972F00AA8C90 /* Assets.xcassets */; };
 		1EFDE6771C2A972F00AA8C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFDE6751C2A972F00AA8C90 /* LaunchScreen.storyboard */; };
+		1EFDE6801C2A9B6A00AA8C90 /* QYLanuchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE67F1C2A9B6A00AA8C90 /* QYLanuchViewController.m */; };
+		1EFDE6861C2A9C2E00AA8C90 /* NSMutableString+TagReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE6831C2A9C2E00AA8C90 /* NSMutableString+TagReplace.m */; };
+		1EFDE6871C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE6851C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.m */; };
+		1EFDE68A1C2A9C6500AA8C90 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDE6891C2A9C6500AA8C90 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1EFDE6641C2A972F00AA8C90 /* QYLanuchAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYLanuchAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFDE6641C2A972F00AA8C90 /* QYLaunchAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYLaunchAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFDE6681C2A972F00AA8C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EFDE66A1C2A972F00AA8C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EFDE66B1C2A972F00AA8C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EFDE66D1C2A972F00AA8C90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EFDE66E1C2A972F00AA8C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1EFDE6711C2A972F00AA8C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EFDE6731C2A972F00AA8C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EFDE6761C2A972F00AA8C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EFDE6781C2A972F00AA8C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFDE67E1C2A9B6A00AA8C90 /* QYLanuchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLanuchViewController.h; sourceTree = "<group>"; };
+		1EFDE67F1C2A9B6A00AA8C90 /* QYLanuchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYLanuchViewController.m; sourceTree = "<group>"; };
+		1EFDE6821C2A9C2E00AA8C90 /* NSMutableString+TagReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+TagReplace.h"; sourceTree = "<group>"; };
+		1EFDE6831C2A9C2E00AA8C90 /* NSMutableString+TagReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+TagReplace.m"; sourceTree = "<group>"; };
+		1EFDE6841C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WPAttributedMarkup.h"; sourceTree = "<group>"; };
+		1EFDE6851C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPAttributedMarkup.m"; sourceTree = "<group>"; };
+		1EFDE6881C2A9C6500AA8C90 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		1EFDE6891C2A9C6500AA8C90 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +51,7 @@
 		1EFDE65B1C2A972F00AA8C90 = {
 			isa = PBXGroup;
 			children = (
-				1EFDE6661C2A972F00AA8C90 /* QYLanuchAnimation */,
+				1EFDE6661C2A972F00AA8C90 /* QYLaunchAnimation */,
 				1EFDE6651C2A972F00AA8C90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,25 +59,28 @@
 		1EFDE6651C2A972F00AA8C90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EFDE6641C2A972F00AA8C90 /* QYLanuchAnimation.app */,
+				1EFDE6641C2A972F00AA8C90 /* QYLaunchAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1EFDE6661C2A972F00AA8C90 /* QYLanuchAnimation */ = {
+		1EFDE6661C2A972F00AA8C90 /* QYLaunchAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				1EFDE66A1C2A972F00AA8C90 /* AppDelegate.h */,
 				1EFDE66B1C2A972F00AA8C90 /* AppDelegate.m */,
-				1EFDE66D1C2A972F00AA8C90 /* ViewController.h */,
-				1EFDE66E1C2A972F00AA8C90 /* ViewController.m */,
+				1EFDE67E1C2A9B6A00AA8C90 /* QYLanuchViewController.h */,
+				1EFDE67F1C2A9B6A00AA8C90 /* QYLanuchViewController.m */,
 				1EFDE6701C2A972F00AA8C90 /* Main.storyboard */,
 				1EFDE6731C2A972F00AA8C90 /* Assets.xcassets */,
 				1EFDE6751C2A972F00AA8C90 /* LaunchScreen.storyboard */,
 				1EFDE6781C2A972F00AA8C90 /* Info.plist */,
+				1EFDE6881C2A9C6500AA8C90 /* UIViewExt.h */,
+				1EFDE6891C2A9C6500AA8C90 /* UIViewExt.m */,
+				1EFDE6811C2A9C2E00AA8C90 /* WPAttributedMarkup */,
 				1EFDE6671C2A972F00AA8C90 /* Supporting Files */,
 			);
-			path = QYLanuchAnimation;
+			path = QYLaunchAnimation;
 			sourceTree = "<group>";
 		};
 		1EFDE6671C2A972F00AA8C90 /* Supporting Files */ = {
@@ -79,12 +91,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1EFDE6811C2A9C2E00AA8C90 /* WPAttributedMarkup */ = {
+			isa = PBXGroup;
+			children = (
+				1EFDE6821C2A9C2E00AA8C90 /* NSMutableString+TagReplace.h */,
+				1EFDE6831C2A9C2E00AA8C90 /* NSMutableString+TagReplace.m */,
+				1EFDE6841C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.h */,
+				1EFDE6851C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.m */,
+			);
+			path = WPAttributedMarkup;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EFDE6631C2A972F00AA8C90 /* QYLanuchAnimation */ = {
+		1EFDE6631C2A972F00AA8C90 /* QYLaunchAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EFDE67B1C2A972F00AA8C90 /* Build configuration list for PBXNativeTarget "QYLanuchAnimation" */;
+			buildConfigurationList = 1EFDE67B1C2A972F00AA8C90 /* Build configuration list for PBXNativeTarget "QYLaunchAnimation" */;
 			buildPhases = (
 				1EFDE6601C2A972F00AA8C90 /* Sources */,
 				1EFDE6611C2A972F00AA8C90 /* Frameworks */,
@@ -94,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = QYLanuchAnimation;
+			name = QYLaunchAnimation;
 			productName = QYLanuchAnimation;
-			productReference = 1EFDE6641C2A972F00AA8C90 /* QYLanuchAnimation.app */;
+			productReference = 1EFDE6641C2A972F00AA8C90 /* QYLaunchAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1EFDE65F1C2A972F00AA8C90 /* Build configuration list for PBXProject "QYLanuchAnimation" */;
+			buildConfigurationList = 1EFDE65F1C2A972F00AA8C90 /* Build configuration list for PBXProject "QYLaunchAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EFDE6631C2A972F00AA8C90 /* QYLanuchAnimation */,
+				1EFDE6631C2A972F00AA8C90 /* QYLaunchAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -149,9 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFDE66F1C2A972F00AA8C90 /* ViewController.m in Sources */,
+				1EFDE6861C2A9C2E00AA8C90 /* NSMutableString+TagReplace.m in Sources */,
+				1EFDE6801C2A9B6A00AA8C90 /* QYLanuchViewController.m in Sources */,
 				1EFDE66C1C2A972F00AA8C90 /* AppDelegate.m in Sources */,
 				1EFDE6691C2A972F00AA8C90 /* main.m in Sources */,
+				1EFDE68A1C2A9C6500AA8C90 /* UIViewExt.m in Sources */,
+				1EFDE6871C2A9C2E00AA8C90 /* NSString+WPAttributedMarkup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = QYLanuchAnimation/Info.plist;
+				INFOPLIST_FILE = QYLaunchAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYLanuchAnimation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYLaunchAnimation;
+				PRODUCT_NAME = QYLaunchAnimation;
 			};
 			name = Debug;
 		};
@@ -272,17 +298,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = QYLanuchAnimation/Info.plist;
+				INFOPLIST_FILE = QYLaunchAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYLanuchAnimation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYLaunchAnimation;
+				PRODUCT_NAME = QYLaunchAnimation;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EFDE65F1C2A972F00AA8C90 /* Build configuration list for PBXProject "QYLanuchAnimation" */ = {
+		1EFDE65F1C2A972F00AA8C90 /* Build configuration list for PBXProject "QYLaunchAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EFDE6791C2A972F00AA8C90 /* Debug */,
@@ -291,13 +317,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EFDE67B1C2A972F00AA8C90 /* Build configuration list for PBXNativeTarget "QYLanuchAnimation" */ = {
+		1EFDE67B1C2A972F00AA8C90 /* Build configuration list for PBXNativeTarget "QYLaunchAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EFDE67C1C2A972F00AA8C90 /* Debug */,
 				1EFDE67D1C2A972F00AA8C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

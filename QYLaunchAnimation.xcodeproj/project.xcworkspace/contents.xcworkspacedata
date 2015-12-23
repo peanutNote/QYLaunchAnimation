@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:QYLanuchAnimation.xcodeproj">
+      location = "self:/Users/qianye/Desktop/MyGithubProject/QYLanuchAnimation/QYLaunchAnimation.xcodeproj">
    </FileRef>
 </Workspace>
